@@ -1,24 +1,15 @@
-# README
+# Modern Javascript and Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails 5 application shows the bare minimum requirements to get ES6 compilation running under the Rails asset pipeline as described in my blog post [Modern Javascript and Rails](http://collectiveidea.com/blog/archives/2016/03/09/modern-javascript-and-rails).
 
-Things you may want to cover:
+To run this example yourself:
 
-* Ruby version
+`bundle install`
 
-* System dependencies
+`npm install`
 
-* Configuration
+`rails s`
 
-* Database creation
+Visit `localhost:3000/teaspoon` and click on `default`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If all is well, you'll get a green test suite. You can inspect the resulting `hello_world.js` to see that it was properly transpiled into ES5.
